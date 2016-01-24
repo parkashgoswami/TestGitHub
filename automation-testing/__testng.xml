@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="#Fame Sanity Suite" parallel="tests">
+	<test name="D5833">
+		<parameter name="deviceName" value="D5833" ></parameter>
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+		  <packages>
+    	<package name="com.ttnd.testScripts" />
+    </packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

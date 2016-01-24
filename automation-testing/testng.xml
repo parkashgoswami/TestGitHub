@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="#BlogMint Sanity Suite" parallel="tests">
+	<test name="Test on device D5833 ">
+		<parameter name="deviceName" value="D5833" ></parameter>
+		<groups>
+			<run>
+				<include name="Sanity" />				
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ttnd.testScripts.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
